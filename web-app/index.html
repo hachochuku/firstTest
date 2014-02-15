@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html ng-app="cream">
+	<head>
+		<script src="js/angular.js"></script>
+		<script src="js/angular-resource.js"></script>
+		
+	</head>
+	<Body>
+	
+	
+	</Body>
+
+</html>
+
+
+
+<script>
+	var creamApp = angular.module('cream', ['ngResource']);
+
+	Users = $resource('http://localhost:8080/Cream/users', {userId:'@id'})
+
+	/*
+creamApp.factory('user', ['$resource',
+		function($resource){
+			return $resource('users/:userId.json', {}, {
+				query: {method:'GET', params:userId:'phones', isArray:true}
+			});
+
+		}
+	]);
+
+	*/
+
+</script>
