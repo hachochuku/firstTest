@@ -2,7 +2,6 @@ package com.cream
 
 import grails.rest.Resource
 
-@Resource (uri='/properties',formats=['json','xml'])
 class Property {
 	String address
 	Float longitude
