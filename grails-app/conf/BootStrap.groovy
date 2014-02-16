@@ -13,24 +13,28 @@ class BootStrap {
 			firstName: "Anochie",
 			lastName: "Ugochuku",
 			emailAddress: "noch3p0@gmail.com",
+			password:"password",
 			username: "WillSmith").save(failonError:true,flush:true)
 			
 		new User(
 			firstName: "Lorainna",
 			lastName: "Bobbit",
 			emailAddress: "emailaddy@gmail.com",
+			password:"password",
 			username: "lbobbit").save(failonError:true,flush:true)
 			
 		new User(
 			firstName: "Katarina",
 			lastName: "Kutchokokoff",
 			emailAddress: "kkutch@somewhere.com",
+			password:"password",
 			username:"kkutch").save(failonError:true,flush:true)
 			
 		new User(
 			firstName: "Lyquoc",
 			lastName: "Vo",
 			emailAddress: "lvo@somewhere.com",
+			password:"password",
 			username:"lvo").save(failonError:true,flush:true)
 		
 			

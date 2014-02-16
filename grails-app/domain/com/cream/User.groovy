@@ -9,7 +9,11 @@ class User {
 	String firstName
 	String lastName
 	String emailAddress
+	String password
+
 	
     static constraints = {
+		enabled:true
+		password:'password'
     }
 }
